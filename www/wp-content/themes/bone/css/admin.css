@@ -1,0 +1,32 @@
+/*
+Theme Name: Bone
+Description: Used to style backend interface.
+*/
+
+.redux-container .rAds,
+#redux_rAds .rAds {
+	display: none !important;
+}
+
+/**
+ * Gutenberg styling
+ */
+
+.editor-post-title__block .editor-post-title__input {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	font-weight: 700;
+}
+
+/**
+ * Classic Editor styling
+ */
+
+.wp-editor-container iframe {
+	max-width: 610px;
+	margin: 60px auto;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce > *,
+.wp-block-freeform.block-library-rich-text__tinymce blockquote {
+	margin-bottom: 32px;
+}
