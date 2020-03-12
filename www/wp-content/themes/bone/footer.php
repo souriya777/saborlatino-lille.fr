@@ -68,7 +68,10 @@
 	
 	<!-- Offcanvas menu -->
 	<div id="md_offCanvasMenu" class="md_offCanvasMenu md_offCanvas md_offCanvas--left">
-		<div class="offCanvasClose metaFont js-offCanvasClose"><i class="fa fa-times-circle"></i><?php esc_html_e('Close', 'bone') ?></div>
+    <div class="offCanvasClose metaFont js-offCanvasClose"><i class="fa fa-times-circle"></i>
+    Fermer
+    <!-- <php esc_html_e('Close', 'bone') ?> -->
+    </div>
 		<div class="md_offCanvasMenu-social">
 			<?php get_template_part('templates/site-social-inline'); ?>
 		</div>

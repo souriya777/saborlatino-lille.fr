@@ -58,12 +58,12 @@ Text Domain: bone
 
 
 html {
-	font-size: 14px;
+	font-size: 62.5%;
 }
 body {
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-	font-size: 14px;
-	line-height: 1.5;
+	font-size: 1.6em;
+	line-height: 1.6;
 	font-weight: 400;
 	color: rgba(0,0,0,0.8);
 	overflow-x: hidden;
@@ -583,7 +583,6 @@ a.u-stretched {
 	padding-right: 20px;
 }
 .contentWrap {
-	max-width: 768px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -2032,14 +2031,14 @@ input.searchField-form-input {
 .navigation--standard > ul > li {
 	position: relative;
 	display: inline-block;
-	padding: 0px 8px;
+	padding: 0px 22px;
 }
 .navigation--standard > ul > li > a {
 	display: block;
 	position: relative;
 	padding: 26px 0;
 	text-transform: uppercase;
-	font-size: 12px;
+	font-size: 26px;
 	font-weight: 400;
 	line-height: 1;
 	color: rgba(0,0,0,0.6);
@@ -2063,7 +2062,7 @@ input.searchField-form-input {
 }
 .navigation--standard > ul > li > a:hover:before,
 .navigation--standard > ul > li.current-menu-item > a:before {
-	border-bottom-width: 3px;
+	border-bottom-width: 0.5rem;
 }
 .navigation--standard > ul > li.menu-item-has-children > a:after {
 	content: '\f078';
@@ -4328,7 +4327,7 @@ a.metaLink:visited {
 .bodyCopy {
 	position: relative;
 	color: rgba(0,0,0,0.8);
-	font-size: 16px;
+	font-size: 2.2rem;
 	font-weight: 400;
 	line-height: 1.8;
 	word-break: break-word;
@@ -4465,7 +4464,6 @@ a.metaLink:visited {
 -------------------------------------*/
 
 .postContent {
-	max-width: 600px;
 	padding: 0;
 }
 .postContent > *,
@@ -4702,7 +4700,8 @@ a.metaLink:visited {
 	max-width: initial;
 }
 .postContent .wp-block-quote {
-	font-size: 1em;
+  font-size: 1em;
+  padding: 0;
 }
 .postContent .wp-block-quote:not(.is-large):not(.is-style-large) {
 	border-left: 5px solid #eee;
@@ -4710,8 +4709,6 @@ a.metaLink:visited {
 }
 .postContent .wp-block-quote.is-large,
 .postContent .wp-block-quote.is-style-large {
-	margin: 32px 0;
-	padding: 2em 2.5em;
 	border: none;
 }
 .postContent .wp-block-quote.is-large p,
@@ -5376,7 +5373,10 @@ article.comment {
 	font-weight: 700;
 }
 .pageHeading--fw.hasBgImg {
-	padding-top: 280px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 34rem;
 }
 .pageHeading--fw.hasBgImg .o-backgroundImg:after {
 	content: '';
@@ -7497,3 +7497,10 @@ ul.reviewList > li:not(:first-child) {
 		page-break-inside: avoid;
 	}
 }
+
+/*=====================================
+	#SOURIYA
+=====================================*/
+.lvl-begin { color: green; }
+.lvl-inter { color: blue; }
+.lvl-adv { color: red; }
